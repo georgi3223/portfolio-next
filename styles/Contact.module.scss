@@ -1,0 +1,167 @@
+.container {
+  width: 100%;
+  padding: 50px 20px;
+  background-color: #1c1f26;
+  color: #e0e0e0;
+}
+
+.innerContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f0a500;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2b2f38;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px #000;
+}
+
+.leftContent {
+  width: 100%;
+}
+
+.contactImage {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 15px #000;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f0a500;
+  margin-bottom: 10px;
+}
+
+.role {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #e0e0e0;
+}
+
+.availability {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.connect {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #f0a500;
+  margin-bottom: 15px;
+}
+
+.iconsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0a500;
+  color: #1c1f26;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+
+  &:hover {
+    background-color: #e08000;
+    transform: scale(1.1);
+  }
+}
+
+/* Contact Form Styles */
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #2b2f38;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px #000;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  padding: 12px;
+  border: 1px solid #3a3f47;
+  border-radius: 8px;
+  background-color: #1c1f26;
+  color: #e0e0e0;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease;
+
+  &:focus {
+    border-color: #f0a500;
+    outline: none;
+  }
+
+  &::placeholder {
+    color: #888;
+  }
+}
+
+.contactForm button {
+  padding: 12px 25px;
+  background-color: #f0a500;
+  color: #1c1f26;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+
+  &:hover {
+    background-color: #e08000;
+    transform: scale(1.05);
+  }
+}
+
+.status {
+  margin-top: 15px;
+  color: #e0e0e0;
+  font-size: 1rem;
+}
