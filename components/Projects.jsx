@@ -11,8 +11,8 @@ const Projects = () => {
         <div className={styles.grid}>
           <div className={styles.projectItem}>
             <div className={styles.info}>
-              <h3 className={styles.title}>E-commerce build with Spring Boot</h3>
-              <p className={styles.description}>A fully functional e-commerce application built with Spring Boot.</p>
+              <h3 className={styles.title}>Rent House with Spring Boot</h3>
+              <p className={styles.description}>A fully functional rent house application built with Spring Boot.</p>
               <Link href="https://github.com/georgi3223/rent-house-spring-boot">
                 <p className={styles.moreInfo}>Github Link</p>
               </Link>
