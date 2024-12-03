@@ -5,7 +5,6 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import styles from '../styles/Main.module.scss'; 
 
-
 const Main = () => {
   return (
     <div id="home" className={styles.container}>

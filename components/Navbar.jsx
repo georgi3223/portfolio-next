@@ -1,8 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
-import { AiOutlineClose } from 'react-icons/ai'; // Importing only the close icon
-
+import { AiOutlineClose } from 'react-icons/ai';
 import styles from '../styles/Navbar.module.scss';
 
 const Navbar = () => {

@@ -5,7 +5,6 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import ContactImg from '../public/assets/contact.jpg';
 import styles from '../styles/Contact.module.scss';
 
-
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
