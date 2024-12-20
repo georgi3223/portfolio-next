@@ -45,13 +45,13 @@ const Skills = () => {
           </div>
           <div className={styles.card}>
             <div className={styles.cardContent}> 
-            <h3>Java</h3>            
+            <h3>PHP</h3>            
             </div>
           </div>
           <div className={styles.card}>
             <div className={styles.cardContent}>            
               <div className={styles.label}>
-                <h3>Spring Boot</h3>
+                <h3>Laravel</h3>
               </div>
             </div>
           </div>

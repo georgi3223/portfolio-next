@@ -11,18 +11,9 @@ const Projects = () => {
         <div className={styles.grid}>
           <div className={styles.projectItem}>
             <div className={styles.info}>
-              <h3 className={styles.title}>Rent House</h3>
-              <p className={styles.description}>A fully functional rent house application built with React.</p>
-              <Link href="https://github.com/georgi3223/real-estate-react">
-                <p className={styles.moreInfo}>Github Link</p>
-              </Link>
-            </div>
-          </div>
-          <div className={styles.projectItem}>
-            <div className={styles.info}>
               <h3 className={styles.title}>E-commerce</h3>
-              <p className={styles.description}>A fully functional rent house application built with Spring Boot.</p>
-              <Link href="https://github.com/georgi3223/spring-boot-ecommerce">
+              <p className={styles.description}>A fully functional E-commerce built with Laravel and React.</p>
+              <Link href="https://github.com/georgi3223/real-estate-react">
                 <p className={styles.moreInfo}>Github Link</p>
               </Link>
             </div>
