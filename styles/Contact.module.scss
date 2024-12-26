@@ -76,6 +76,8 @@
 }
 
 .connect {
+  display:flex;
+  justify-content: center;
   font-size: 1.2rem;
   font-weight: 600;
   color: #f0a500;
@@ -86,6 +88,7 @@
   display: flex;
   justify-content: center;
   gap: 15px;
+  margin-top: 20px;
 }
 
 .icon {
@@ -100,11 +103,11 @@
   font-size: 1.4rem;
   cursor: pointer;
   transition: transform 0.3s, background-color 0.3s;
+}
 
-  &:hover {
-    background-color: #e08000;
-    transform: scale(1.1);
-  }
+.icon:hover {
+  background-color: #e08000;
+  transform: scale(1.1);
 }
 
 .rightContainer {
@@ -132,15 +135,17 @@
   font-size: 1rem;
   margin-bottom: 15px;
   transition: border-color 0.3s ease;
+}
 
-  &:focus {
-    border-color: #f0a500;
-    outline: none;
-  }
+.contactForm input:focus,
+.contactForm textarea:focus {
+  border-color: #f0a500;
+  outline: none;
+}
 
-  &::placeholder {
-    color: #888;
-  }
+.contactForm input::placeholder,
+.contactForm textarea::placeholder {
+  color: #888;
 }
 
 .contactForm button {
@@ -152,11 +157,11 @@
   font-size: 1.1rem;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
+}
 
-  &:hover {
-    background-color: #e08000;
-    transform: scale(1.05);
-  }
+.contactForm button:hover {
+  background-color: #e08000;
+  transform: scale(1.05);
 }
 
 .status {
