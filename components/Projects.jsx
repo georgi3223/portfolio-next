@@ -12,8 +12,8 @@ const Projects = () => {
           <div className={styles.projectItem}>
             <div className={styles.info}>
               <h3 className={styles.title}>E-commerce</h3>
-              <p className={styles.description}>A fully functional E-commerce built with Laravel and React.</p>
-              <Link href="https://github.com/georgi3223/real-estate-react">
+              <p className={styles.description}>A fully functional E-commerce built with Laravel and Vue.</p>
+              <Link href="https://github.com/georgi3223/laravel-vue-e-commerce">
                 <p className={styles.moreInfo}>Github Link</p>
               </Link>
             </div>
