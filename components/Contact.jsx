@@ -28,13 +28,7 @@ const Contact = () => {
               <p className={styles.role}>Web Developer</p>
               <p className={styles.availability}>
                 I am available for intern and junior positions. Feel free to reach out!
-              </p>
-              <p className={styles.connect}>Connect With Me</p>
-              <a href="https://github.com/georgi3223" target="_blank" rel="noreferrer">
-                <div className={styles.icon}>
-                  <FaGithub />
-                </div>
-              </a>
+              </p>             
             </div>
           </div>
 
